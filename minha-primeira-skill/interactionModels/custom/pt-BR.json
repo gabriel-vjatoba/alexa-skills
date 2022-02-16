@@ -1,0 +1,56 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "meu primeiro teste",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "CapturaNomeIntent",
+          "slots": [
+            {
+              "name": "nomeusuario",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "É {nomeusuario}",
+            "Sou {nomeusuario}",
+            "Pode me chamar de {nomeusuario}",
+            "Me chamo {nomeusuario}",
+            "Meu nome é {nomeusuario}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "SobreMimIntent",
+          "slots": [],
+          "samples": [
+            "não conheço você",
+            "me fale sobre você",
+            "quem é você",
+            "o que você faz",
+            "gabriel o que você faz",
+            "gabriel quem é você",
+            "gabriel me fale sobre você"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "3"
+}
